@@ -1,0 +1,63 @@
+////////////////////////////////////////////////////////////////////////////
+
+
+//use a database
+
+code--->
+use DataBase_name;
+<----code
+------------------------------------------------------------------
+//import a table from a database 
+
+code--->
+SELECT * FROM DataBase_name.table_name;
+<----code
+
+------------------------------------------------------------------
+//create a new table 
+
+code--->
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+<----code
+-------------------------------------------------------------------
+//Insert a data in to a column
+
+code--->
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+<----code
+
+-------------------------------------------------------------------
+//Update a data
+code--->
+
+use jeorm;
+
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE persons
+SET City = 'Chennai'
+Where Department = 'ECE';
+
+<----code
+
+
+TASK 1
+create employer database
+1.with coloumns emp id ,first name,last name,salary insert upto 7values
+
+2.remove the first name structure 
+
+3.rename lastname as name
+
+4.add new coloumn Department
+
+5.delete the values in column
