@@ -48,8 +48,13 @@ SET City = 'Chennai'
 Where Department = 'ECE';
 
 <----code
+---------------------------------------------------------------------
 
+//delete a column 
+code--->
 
+ALTER TABLE Schema_name DROP COLUMN column_name;
+<---code
 TASK 1
 create employer database
 1.with coloumns emp id ,first name,last name,salary insert upto 7values
